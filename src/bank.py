@@ -14,4 +14,4 @@ class Bank:
 
     def check_balance(self):
         df = self.load_data()
-        return df.loc[df['Account_Holder'] == self.name, ['Balance']]
+        return df.loc[df['Account_Holder'] == self.name, 'Balance']
