@@ -1,1 +1,2 @@
-1. improve best practices
+1. Add polylith to this repository
+2. improve best practices
