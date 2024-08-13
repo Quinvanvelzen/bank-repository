@@ -1,4 +1,3 @@
-1. Add polylith to this repository
-2. improve best practices
+1. https://www.youtube.com/watch?v=3w2ffHZb6gc
 3. add dockerfile
 4. add api endpoint
