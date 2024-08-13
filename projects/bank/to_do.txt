@@ -1,0 +1,4 @@
+1. Add polylith to this repository
+2. improve best practices
+3. add dockerfile
+4. add api endpoint
