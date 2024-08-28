@@ -2,3 +2,7 @@
     1.1 add the logger to see what is the erro
 3. add dockerfile
 4. add api endpoint
+
+To learn:
+1. Wheel
+2. Docker image
