@@ -4,5 +4,5 @@
 4. add api endpoint
 
 To learn:
-1. Wheel
+1. Wheel ✓
 2. Docker image
