@@ -1,7 +1,5 @@
-1. https://www.youtube.com/watch?v=3w2ffHZb6gc
-    1.1 add the logger to see what is the erro
-3. add dockerfile
-4. add api endpoint
+1. uvicorn main:app --reload
+2. try to run local with debugger
 
 To learn:
 1. Wheel ✓✓

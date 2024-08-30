@@ -6,7 +6,7 @@ hardcoded_data: dict[str, list[str] | list[float]] = {
         'ACC00006', 'ACC00007', 'ACC00008', 'ACC00009', 'ACC00010'
     ],
     'Account_Holder': [
-        'John Doe', 'Jane Smith', 'Alice Johnson', 'Robert Brown', 'Emily Davis',
+        'John', 'Jane Smith', 'Alice Johnson', 'Robert Brown', 'Emily Davis',
         'Michael Wilson', 'Mary Clark', 'David Martinez', 'Linda Rodriguez', 'James Lewis'
     ],
     'Balance': [

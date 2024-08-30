@@ -18,4 +18,12 @@ class BankActions:
 
     def check_balance(self):
         df = self.load_data()
-        return df.loc[df['Account_Holder'] == self.name, 'Balance']
+
+        # Check if the 'name' exists in the 'Account_Holder' column
+        balance = df.loc[df['Account_Holder'] == self.name, 'Balance']
+
+        # Check if the balance is not empty
+        if not balance.empty:
+            return balance.iloc[0]
+        else:
+            return "OH NO! You entered a wrong name :("
