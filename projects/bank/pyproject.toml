@@ -4,16 +4,19 @@ version = "0.0.1"
 description = "an example FastAPI project"
 authors = ["Quinten van Velzen"]
 packages = [
-    {include = "demo/log", from = "../../components"},
-    {include = "demo/message", from = "../../components"},
-    {include = "demo/greet_api", from = "../../bases"},
+    {include = "components", from = "../../"},
+    {include = "greet_api", from = "../../bases"},
+        {include = "bases", from = "../../"},
+
 ]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = "^0.73.0"
 uvicorn = {extras = ["standard"], version = "^0.17.4"}
-
+# use poetry add pytest, to add the pytest package
+pandas = "^2.2.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+

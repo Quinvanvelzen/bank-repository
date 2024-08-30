@@ -4,5 +4,13 @@
 4. add api endpoint
 
 To learn:
-1. Wheel ✓
-2. Docker image
+1. Wheel ✓✓
+2. Dockerfile ✓
+3. poetry ✓
+4. logging
+5. testing
+
+Go over these topics to see if they are understood for my flint repository
+
+✓ = understood for bank repository
+✓✓ = understood for bank- and flint repository

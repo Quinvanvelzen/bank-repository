@@ -1,5 +1,5 @@
-from src.bank import Bank
-from src.bank_Netherlands.bank import Bank_Netherlands
+from bases.bank import Bank
+from components.bank.country_specific.bank_Netherlands.bank import Bank_Netherlands
 
 
 def main():

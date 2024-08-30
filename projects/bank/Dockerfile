@@ -22,4 +22,8 @@ RUN pip install --no-cache-dir --upgrade /code/$wheel
 # uvicorn starts the app, list all ip adresses inside the container
 # by default listen to local host
 # this is written in json format, it looksl like this: uvicorn demo.greet_api.core:app --host 0.0.0.0 --port 8000
-CMD ["uvicorn", "demo.greet_api.core:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "greet_api.core:app", "--host", "0.0.0.0", "--port", "8000"]
+
+# Dockerfile, contains instructions on how to build the image
+# Image can be build through docker build -t myimage .
+# then build an instance of the image: docker run -d --name mycontainer -p 8000:8000 myimage

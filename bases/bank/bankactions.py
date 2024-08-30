@@ -1,14 +1,18 @@
 import pandas as pd
 
+from components.fake_data_base.data import hardcoded_data
+from components.log.core import get_logger
 
-class Bank:
+logger = get_logger("greet-FastAPI-logger")
+
+
+class BankActions:
 
     def __init__(self, name):
         self.name = name
 
     @staticmethod
     def load_data():
-        from fake_data_base.data import hardcoded_data
         hardcoded_df = pd.DataFrame(hardcoded_data)
         return hardcoded_df
 
