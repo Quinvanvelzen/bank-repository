@@ -1,12 +1,9 @@
-1. uvicorn main:app --reload
-2. try to run local with debugger
-
 To learn:
 1. Wheel ✓✓
 2. Dockerfile ✓
 3. poetry ✓
 4. logging
-5. testing
+5. testing ✓
 
 Go over these topics to see if they are understood for my flint repository
 

@@ -8,7 +8,7 @@ logger = get_logger("greet-FastAPI-logger")
 app = FastAPI()
 
 @app.get("/")
-def root(name: str = Query('wrong', description="Enter your name")) -> dict:
+def root(name: str = Query('name', description="Enter your name")) -> dict:
     logger.info("The FastAPI root endpoint was called with name: %s", name)
 
     # Initialize the BankActions object with the provided name
